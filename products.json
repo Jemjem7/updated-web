@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Shoes",
+        "description": "Nike Air Force 1",
+        "price": "$40.00",
+        "images": [
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/02f8959e-927a-40c0-8ed6-366574f302d0/air-force-1-07-womens-shoes-b19lqD.png",
+                "color": "#272727"
+            },
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f094af40-f82f-4fb9-a246-e031bf6fc411/air-force-1-07-womens-shoes-b19lqD.png",
+                "color": "#23284E"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Nike jacket",
+        "description": "Men's Therma-FIT Full-Zip Fitness Top",
+        "price": "$52.99",
+        "images": [
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c013660a-93fe-48eb-bd2f-ca731d344905/therma-mens-therma-fit-full-zip-fitness-top-vsR4Rm.png",
+                "color": "#4F8196"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Bagpack",
+        "description": "Nike Hoops Elite",
+        "price": "$69.99",
+        "images": [
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/13176429-55c8-4654-890a-5e78f8e93f57/hoops-elite-backpack-32l-l0zSj5.png",
+                "color": "#E8E8E8"
+            },
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/879781f0-abb2-498b-baac-7a28143809ca/hoops-elite-backpack-32l-l0zSj5.png",
+                "color": "#FAB364"
+            },
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/36242c55-ffbe-4977-b028-022a26774ff0/hoops-elite-backpack-32l-l0zSj5.png",
+                "color": "#F2CFCD"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Socks",
+        "description": "Nike Everyday Plus Cushioned",
+        "price": "$60.00",
+        "images": [
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e6d0e881-6c5a-407a-8882-ce7b099a91e2/everyday-plus-cushioned-training-no-show-socks-6-pairs-XXM9xm.png",
+                "color": "#2C88B3"
+            },
+            {
+                "url": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/031971fd-95ea-4e4c-a4f3-0e704964655d/everyday-plus-cushioned-training-no-show-socks-6-pairs-XXM9xm.png",
+                "color": "#505654"
+            }
+        ]
+    }
+]

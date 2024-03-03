@@ -1,0 +1,158 @@
+/* Add your custom CSS styles here */
+
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+/* Product Card Styles */
+.most-popular-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card__img img {
+    width: 100%;
+}
+
+.product-card__description {
+    padding: 15px;
+}
+
+.product-card__price {
+    font-weight: bold;
+    color: #04AA6D;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Ito ay para sa mga mobile device */
+    /* I-adjust ang layout o style depende sa mobile screen */
+    .product-card {
+        width: 100%;
+    }
+    
+    .btn-add-to-cart {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .btn-delete {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.btn-add-to-cart {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.btn-delete {
+    margin-top: 10px;
+    width: auto;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
